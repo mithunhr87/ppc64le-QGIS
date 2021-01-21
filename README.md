@@ -17,3 +17,11 @@ Note: port could be changed in the Dockerfile and the entrypoint.sh script from 
 
 Step4: once the container is running,  Install a vnc client on the host and connect to application insde the container. TestVNC is the password, can be changed in entrypoint.sh script as needed. qgis running inside a container will appear on successfull connection to vnc
 
+
+
+
+Maintainers of these sample dockerfile and script
+
+Krishna Harsha Voora
+
+Mithun H R
