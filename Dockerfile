@@ -11,7 +11,7 @@ RUN apt-get update
 # Install qgis as per qgis documentation https://www.qgis.org/en/docs/index.html
 RUN apt-get install qgis -y
 # copy all the scripts to working directory (entrypoint.sh)
-ADD . /
+ADD entrypoint.sh /
 # change the work directory
 WORKDIR /
 # install vnc
