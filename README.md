@@ -15,6 +15,5 @@ Step 2: docker build -t "image name:version" .
 Step 3: docker run -it -p 5920:5920 "image name:version"  
 Note: port could be changed in the Dockerfile and the entrypoint.sh script from 5920 as needed, 5920 port is mapped to access qgis from host
 
-Step4: once the container is running ,  Install a vnc client on the host and connect to application insde the container
-
+Step4: once the container is running,  Install a vnc client on the host and connect to application insde the container. TestVNC is the password, can be changed in entrypoint.sh script as needed. qgis running inside a container will appear on successfull connection
 
