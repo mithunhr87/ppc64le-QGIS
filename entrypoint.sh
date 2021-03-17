@@ -7,7 +7,7 @@ export DISPLAY=:20
 
 # strat the vnc session
 Xvfb :20 -screen 0 1366x768x16 &
-x11vnc -passwd TestVNC -display :20 -N -forever &
+x11vnc  -noxrecord -passwd TestVNC -display :20 -N -forever &
 
 #Start qgis
-/usr/bin/qgis
+/usr/bin/qgis /shapefiles/alaska.shp
