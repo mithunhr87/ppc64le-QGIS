@@ -19,6 +19,14 @@ WORKDIR /
 # install vnc
 RUN  apt-get install -y git x11vnc xvfb
 
+RUN apt-get install python3 -y
+
+RUN apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+
+#RUN echo "gnome-panel &" >> ~/.vnc/xstartup
+#RUN echo "gnome-settings-daemon &" >> ~/.vnc/xstartup
+#RUN echo "metacity &" >> ~/.vnc/xstartup
+#RUN echo "nautilus &" >> ~/.vnc/xstartup
 # expose a port 5920 in order to connect to qgis gui
 EXPOSE 5920
 
