@@ -2,7 +2,7 @@ Simple demonstation of qgis (https://www.qgis.org)sample docker file for ppc64le
 
 Attribution: This is just demonstation of how one can use QGIS inside docker container for a architecture like ppc64le, and not original work. Please refer to https://www.qgis.org ,for complete introduction and details about the free opensource professional and powerful desktop GIS. QGIS documentation: https://www.qgis.org/en/docs/index.html
 
-Steps to build a sample docker image on ppc64le using these files
+# Steps to build a sample docker image on ppc64le 
 
 Step 1: Clone the repositoy, Navigate to ppc64le-qgis
 ```
@@ -29,7 +29,7 @@ Step4: once the container is running, Navigate to ``` http://<hostname>:6090/vnc
 A sample .shp file of Alaska will appear on the qgis, However you can open and use any gis supported file/project 
 
 
-OpenShift Deployment
+#  Deployment on OpenShift
 
 Navigate to Openshift folder inside cloned ppc64le-qgis folder
 1. Login to OpenShift 
@@ -55,7 +55,7 @@ $ oc create -f deployment.yaml
 ```
 $ oc create -f service.yaml
 ```
-6. Expose the qgis service here our qgis service name is qgis-service
+6. Expose the qgis service here our qgis service name is *qgis-service*
 ```
 $ oc expose service qgis-service
 ```
@@ -77,8 +77,8 @@ qgis-service-mithunhr.apps.p1258.cecc.ihost.com - This is the link to use
 
 Maintainers of these sample dockerfile and script
 
-Krishna Harsha Voora @krishvoor
+_Krishna Harsha Voora @krishvoor_
 
-Mithun H R @mithunhr87
+_Mithun H R @mithunhr87_
 
-Sahitya Jain @Sahityakrj
+_Sahitya Jain @Sahityakrj_
