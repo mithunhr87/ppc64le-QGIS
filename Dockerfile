@@ -21,7 +21,7 @@ RUN  apt-get install -y git x11vnc xvfb
 
 RUN apt-get install python3 -y
 
-RUN apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+RUN apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal -y
 
 #RUN echo "gnome-panel &" >> ~/.vnc/xstartup
 #RUN echo "gnome-settings-daemon &" >> ~/.vnc/xstartup
