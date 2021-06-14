@@ -53,7 +53,7 @@ $ oc login -u <username> -p <password>
 2. Create a new project in the OCP -
 
 ```
-$ export PROJECT=ppc64le_isv
+$ export PROJECT=ppc64le-isv
 $ oc new-project $PROJECT
 ```
 
