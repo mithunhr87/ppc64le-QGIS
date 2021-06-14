@@ -73,7 +73,20 @@ qgis-service   qgis-service-mithunhr.apps.p1258.cecc.ihost.com          qgis-ser
 
 qgis-service-mithunhr.apps.p1258.cecc.ihost.com - This is the link to use
 ```
+9. Navigate in browser by clicking the route as described in step 8
 
+![image](https://user-images.githubusercontent.com/59821167/121920113-55c7be00-cd55-11eb-962c-20cb752dc70f.png)
+
+10. Click on connect
+
+11. Enter password for VNC - here it is TestVNC
+
+![image](https://user-images.githubusercontent.com/59821167/121920290-87408980-cd55-11eb-8140-5faaca25073b.png)
+
+
+12. you would  see a sample map of Alaska loaded , You can open and work on any supported QGIS project or file 
+
+![image](https://user-images.githubusercontent.com/59821167/121920417-a5a68500-cd55-11eb-8dc1-b73f95b2ce31.png)
 
 Maintainers of these sample dockerfile and script
 
