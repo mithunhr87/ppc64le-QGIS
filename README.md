@@ -1,6 +1,11 @@
-Simple demonstation of qgis (https://www.qgis.org)sample docker file for ppc64le. Docker container that runs QGIS Server on ppc64le
+Demonstation of qgis (https://www.qgis.org) on ppc64le. 
+Here, we have supplied a Dockerfile to build container image that runs QGIS Server on ppc64le
 
-Attribution: This is just demonstation of how one can use QGIS inside docker container for a architecture like ppc64le, and not original work. Please refer to https://www.qgis.org ,for complete introduction and details about the free opensource professional and powerful desktop GIS. QGIS documentation: https://www.qgis.org/en/docs/index.html
+Attribution: 
+This is just demonstation of how one can use QGIS inside docker container for an architecture like ppc64le, and not original work. 
+Please refer to https://www.qgis.org ,for complete introduction and details about the free opensource professional and powerful desktop GIS.
+
+QGIS documentation: https://www.qgis.org/en/docs/index.html
 
 # Steps to build a sample docker image on ppc64le 
 
