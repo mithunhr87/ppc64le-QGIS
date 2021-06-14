@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: qgisppc64le
+  namespace: <project-name> 
+spec:
+  selector:
+    matchLabels:
+      app: qgisppc64le
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: qgisppc64le
+    spec:
+      containers:
+        - name: qgispod
+          image: quay.io/mithunhr/ppc64le-qgis-example:v1
+          ports:
+            - containerPort: 6080
