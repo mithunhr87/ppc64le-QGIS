@@ -59,12 +59,13 @@ $ oc new-project $PROJECT
 
 3. Update the security constraint, as shown below -
 ```
-$ oc adm policy add-scc-to-user privileged -z default -n <project name>
+$ oc adm policy add-scc-to-user privileged -z default -n $PROJECT
 
-$ oc adm policy add-scc-to-user anyuid -z default -n <project name>
+$ oc adm policy add-scc-to-user anyuid -z default -n $PROJECT
 ```
 4. Create the deployment, Update Namespace as project name which you have used in step 2, other fields could be modified if required but not mandatory
 ```
+$ cd ppc64le-qgis/OpenShift/
 $ oc create -f deployment.yaml
 ```
 
