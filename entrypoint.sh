@@ -9,15 +9,14 @@ export DISPLAY=:20
 Xvfb :20 -screen 0 1366x768x16 &
 x11vnc  -noxrecord -passwd TestVNC -display :20 -N -forever &
 
-git clone https://github.com/novnc/novnc
+git -C / clone https://github.com/novnc/novnc
 
 ln -sf /novnc/vnc.html /novnc/index.html
 
-#ENTRYPOINT /novnc/utils/launch.sh --vnc :5920
 
 #Start qgis
 /usr/bin/qgis /shapefiles/alaska.shp &
 
-#apt-get install python3
 
-/novnc/utils/launch.sh --vnc :5920
+/novnc/utils/novnc_proxy --vnc :5920
+
