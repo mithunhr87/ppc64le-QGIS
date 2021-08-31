@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: qgispod
-          image: quay.io/mithunhr/ppc64le-qgis-example:v1
+          image: quay.io/mithunhr/qgisocp:v1
           ports:
             - containerPort: 6080
