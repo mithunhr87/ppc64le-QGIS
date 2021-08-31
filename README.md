@@ -34,7 +34,7 @@ $ docker run -it -p 6080:6080 $IMAGE:$TAG
 
 ```
 
-Step4: once the container is running, Navigate to ``` http://<hostname>:6090/vnc.html ```, TestVNC is the password, can be changed in entrypoint.sh script as needed. qgis running inside a container will appear on successfull connection to vnc
+Step4: once the container is running, Navigate to ``` http://<hostname>:6080/vnc.html ```, TestVNC is the password, can be changed in entrypoint.sh script as needed. qgis running inside a container will appear on successfull connection to vnc
 
 A sample .shp file of Alaska will appear on the qgis, However you can open and use any gis supported file/project 
 
